@@ -1,0 +1,32 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "matt_assist",
+            "cwd": "matt_assist",
+            "request": "launch",
+            "type": "dart"
+        },
+        {
+            "name": "matt_assist (profile mode)",
+            "cwd": "matt_assist",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "profile"
+        },
+        {
+            "name": "matt_assist (release mode)",
+            "cwd": "matt_assist",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "release"
+        },
+        {
+            "name": "Flutter",
+            "program": "lib/main.dart",
+            "cwd": "matt_assist",
+            "request": "launch",
+            "type": "dart"
+        }
+    ]
+}
